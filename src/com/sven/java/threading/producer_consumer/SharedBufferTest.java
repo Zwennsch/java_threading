@@ -22,6 +22,6 @@ public class SharedBufferTest {
 
         service.shutdown();
 
-        System.out.println("Simple Test for git on Asus-PC");
+        System.out.println("Back to my Lenovo!!");
     }
 }
