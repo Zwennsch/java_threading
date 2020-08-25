@@ -21,5 +21,7 @@ public class SharedBufferTest {
         service.execute(new Consumer(buffer));
 
         service.shutdown();
+
+        System.out.println("Simple Test for git on Asus-PC");
     }
 }
