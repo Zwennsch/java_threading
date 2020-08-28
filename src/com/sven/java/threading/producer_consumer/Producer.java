@@ -20,7 +20,7 @@ public class Producer implements Runnable {
                 Thread.sleep(random.nextInt(3000));
                 sharedBuffer.setValue(counter);
                 sum+= counter;
-                System.out.printf("\t\t\t%2d\n", sum);
+//                System.out.printf("\t\t\t%2d\n", sum);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

@@ -18,7 +18,7 @@ public class Consumer implements Runnable {
             try {
                 Thread.sleep(random.nextInt(3000));
                 sum += sharedBuffer.getValue();
-                System.out.printf("\t\t\t\t\t%2d\n", sum);
+//                System.out.printf("\t\t\t\t\t%2d\n", sum);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
