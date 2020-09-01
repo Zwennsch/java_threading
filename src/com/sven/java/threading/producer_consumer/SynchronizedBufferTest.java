@@ -6,6 +6,9 @@ import java.util.concurrent.Executors;
 public class SynchronizedBufferTest {
 
     public static void main(String[] args) {
+        int numProcessors = Runtime.getRuntime().availableProcessors();
+        System.out.println("Number of processors: "+numProcessors);
+
         ExecutorService application = Executors.newCachedThreadPool();
 
         Buffer synchronizedBuffer = new SynchronizedBuffer();
